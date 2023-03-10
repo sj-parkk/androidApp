@@ -42,10 +42,11 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
                 dialog = builder.create(); // dialog도 전역변수 선언함
-                String x = idText.getText().toString();
-                String y = pwText.getText().toString();
+                //String x = idText.getText().toString();
+                //String y = pwText.getText().toString();
                 dialog.setTitle("No Internet access");
-                dialog.setMessage(x + " " + y);
+                dialog.setMessage("test");
+                //dialog.setMessage(x + " " + y);
 
                 dialog.show();
 
